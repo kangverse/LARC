@@ -1,0 +1,32 @@
+# Byte-code / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor / OS metadata
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# LARC runtime artifacts
+answer/
+concept_cache/
+log/
+logs/
+
+# Generated question files are derived from the dataset roots; keep
+# generated outputs out of git but track the generator script itself.
+question/*.jsonl
